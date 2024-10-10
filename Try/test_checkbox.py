@@ -1,7 +1,6 @@
 from selenium import webdriver
 from selenium.webdriver.common.by import By
-from selenium.webdriver.support.ui import WebDriverWait
-from selenium.webdriver.support import expected_conditions as EC
+from testfolder.lib.take_ss import take_screenshot
 
 
 import time
@@ -25,5 +24,7 @@ time.sleep(20)
 print("tested")
 
 
+
+screenshot_path = take_screenshot(driver , folder_path = "Downloads", file_name="test1.png")
 
 
