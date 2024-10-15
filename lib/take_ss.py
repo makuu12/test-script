@@ -1,6 +1,6 @@
 import os
 
-def take_screenshot(driver, folder_path = "Downloads", file_name="secret"):
+def take_screenshot(driver, folder_path = "test-folder/Downloads", file_name="secret"):
     """
     Captures a screenshot of the current page.
     
