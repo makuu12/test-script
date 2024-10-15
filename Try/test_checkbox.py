@@ -1,6 +1,9 @@
 from selenium import webdriver
 from selenium.webdriver.common.by import By
-from testfolder.lib.take_ss import take_screenshot
+import importlib
+
+take_ss = importlib.import_module("test-folder.lib.take_ss")
+from take_ss import take_screenshot
 
 
 import time
