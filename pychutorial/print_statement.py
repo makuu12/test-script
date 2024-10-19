@@ -73,7 +73,10 @@ print("idol\\idok")
 print('I\'m Monty Python.') # Output: I'm Monty Python.
 print("I'm Monty Python.") # Output: I'm Monty Python.
 
-# ------------------ NETACAD CHALLENGE ------------------ #
+
+# ------------------ LAB   Python literals - strings ------------------ #
+# ------------------ LAB   Python literals - strings ------------------ #
+# ------------------ LAB   Python literals - strings ------------------ #
 # Scenario
 # Modify the first line of code in the editor, using the sep and end keywords, to match the expected output. Use the two print() functions in the editor.
 # 
@@ -96,4 +99,15 @@ print("  ***   ***  "*2)
 print("    *   *    "*2)
 print("    *   *    "*2)
 print("    *****    "*2)
+
+
+# Scenario
+# Write a one-line piece of code, using the print() function, as well as the newline and escape characters, to match the expected result outputted on three lines.
+# Expected output:
+# "I'm"
+# ""learning""
+# """Python"""
+
+print("I'm\n" + "\"learning\"\n" + "\"\"Python\"\"\n")
+
 
