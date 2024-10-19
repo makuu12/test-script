@@ -31,8 +31,7 @@ print(line1+line2) # 2 combined string without a space
 print(line1,line2) # 2 combined string with a space
 # Sep = Seperator 
 print("pu", "ta", "ngi", "na", "mo.", sep="-") 
-# Output:
-# pu-ta-ngi-na-mo.
+# Output: pu-ta-ngi-na-mo.
 
 # ------------------ PRINT WITH VARIABLES ------------------ #
 
@@ -60,8 +59,7 @@ print("    *\n   * *\n  *   *\n *     *\n***   ***\n  *   *\n  *   *\n  *****") 
 
 print("ti", end=" ")
 print("te")
-# Output:
-# ti te
+# Output: ti te
 
 # ------------------ MIXED IN ONE INVOCATION ------------------ #
 
@@ -70,13 +68,10 @@ print("Monty", "Python.", sep="*", end="*\n")
 
 # ------------------ HOW TO USE '\' (backslash) THIS IN PRINT FUNCTION ------------------ #
 print("idol\\idok")
-# Output:
-# idol\idok
+# Output: idol\idok
 
-print('Greg\'s book.')
-print("'Greg's book.'")
-print('"Greg\'s book."')
-print("Greg\'s book.")
+print('I\'m Monty Python.') # Output: I'm Monty Python.
+print("I'm Monty Python.") # Output: I'm Monty Python.
 
 # ------------------ NETACAD CHALLENGE ------------------ #
 # Scenario
