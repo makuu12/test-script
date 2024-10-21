@@ -1,9 +1,6 @@
 from selenium import webdriver
 from selenium.webdriver.common.by import By
-import importlib
-
-take_ss = importlib.import_module("test-folder.lib.take_ss")
-from take_ss import take_screenshot
+# from test-folder.lib.take_ss import take_screenshot
 
 
 import time
@@ -28,6 +25,10 @@ print("tested")
 
 
 
-screenshot_path = take_screenshot(driver , folder_path = "Downloads", file_name="test1.png")
+# screenshot_path = take_screenshot(driver , folder_path = "Downloads", file_name="test1.png")
 
 
+# not sure about this
+# will check this later
+# will check this later
+# will check this later

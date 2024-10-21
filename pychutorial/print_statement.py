@@ -111,3 +111,61 @@ print("    *****    "*2)
 print("I'm\n" + "\"learning\"\n" + "\"\"Python\"\"\n")
 
 
+
+
+# ------------------ TITLE, LOWERCASE AND UPPERCASE ------------------ #
+
+print("hello, world".title()) # Output: Hello, World
+print("hAha".upper()) # Output: HAHA
+print("hAha".lower()) # Output: hehe
+
+# ------------------ CHANGE/REPHRASE WORD ------------------ #
+
+print("Hello, world".replace("world", "Mark")) # Output: hello, Mark
+
+# ------------------ CENTER A LINE ------------------ #
+
+print("hello po".center(20, "-").upper())
+# Output:   
+# ------HELLO PO------
+
+
+# ------------------ JUSTIFY (LEFT AND RIGHT) ------------------ #
+
+# Order menus
+print("Americano".ljust(20, "."), "Pesos 90".rjust(4))
+print("Cofee".ljust(20, "."), "Pesos 50".rjust(4))
+print("Cofficino".ljust(20, "."), "Pesos 120".rjust(4))
+print("Mocha".ljust(20, "."), "Pesos 50".rjust(4))
+# Output:   
+# Americano........... Pesos 90
+# Cofee............... Pesos 50
+# Cofficino........... Pesos 120
+# Mocha............... Pesos 50
+
+
+# ------------------ LENGTH FUNCTION ------------------ #
+
+# Determine the number of characters in the line
+print(len("sadddddddddddddddddddddddddddddddddddddddddddddddddddddddd")) # Output: 58
+
+
+# ------------------ STRING INDEX VALUES ------------------ #
+
+print("mark"[-1]) # Output: k
+print("mark"[0]) # Output: m
+print("mark"[1]) # Output: a
+print("mark"[2]) # Output: r
+print("mark"[3]) # Output: k
+
+print("mark"[1:3]) # 1, Output: ar
+print("mark"[1:])  # 2, Output: ark
+#   m   a   r   k
+#   0   1   2   3   
+#       ↑   ↑       ------ 1
+#       ↑   ↑   ↑   ------ 2
+
+
+
+
+
