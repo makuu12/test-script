@@ -18,8 +18,6 @@ This is a multiline comment
 # ------------------ PRINT STATEMENT ------------------ #
 
 print("Hello world! 1") # Generic print method
-greetings = "Hello world! 2" # Print using variable
-print(greetings)
 
 # ------------------ PRINT WITH CONCATENATION & SEPERATOR ------------------ #
 
